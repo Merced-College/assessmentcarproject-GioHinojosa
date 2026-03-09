@@ -74,7 +74,7 @@ public class Main {
 
         for(Car c: cars){
             total += c.getMileage();
-            String f = c.getFuel().toLowerCase();
+            String f = c.getFuelType().toLowerCase();
 
             if(f.equals("gas")) gas++;
             else if(f.equals("diesel")) diesel++;
